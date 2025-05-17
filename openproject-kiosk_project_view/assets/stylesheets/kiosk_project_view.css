@@ -1,0 +1,15 @@
+/* Kiosk-Modus nur für das Projekt "wiki" */
+body[data-base-href^="/projects/wiki"] .op-app-sidebar,
+body[data-base-href^="/projects/wiki"] .top-menu-main,
+body[data-base-href^="/projects/wiki"] .project-selection,
+body[data-base-href^="/projects/wiki"] .breadcrumbs,
+body[data-base-href^="/projects/wiki"] .toolbar,
+body[data-base-href^="/projects/wiki"] .flash.notice {
+  display: none !important;
+}
+
+body[data-base-href^="/projects/wiki"] .op-app-content,
+body[data-base-href^="/projects/wiki"] .work-packages--container {
+  margin-left: 0 !important;
+  width: 100% !important;
+}
