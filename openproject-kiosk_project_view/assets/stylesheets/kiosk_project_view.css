@@ -1,5 +1,5 @@
 /* Kiosk-Modus nur für das Projekt "wiki" */
-body[data-base-href^="/projects/wiki"] .op-app-sidebar,
+/*body[data-base-href^="/projects/wiki"] .op-app-sidebar,*/
 body[data-base-href^="/projects/wiki"] .top-menu-main,
 body[data-base-href^="/projects/wiki"] .project-selection,
 body[data-base-href^="/projects/wiki"] .breadcrumbs,
